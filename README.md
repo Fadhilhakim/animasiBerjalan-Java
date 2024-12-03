@@ -15,4 +15,4 @@ C:\\Users\\user\\animasiBerjalan\\src\\audio\\
 ```
 
 ## Demo Video :
-[![Demo Video](https://github.com/user-attachments/assets/660f875f-7fa1-4ed6-b976-56f7a13ba214)
+[![Demo Video](https://img.youtube.com/vi/-_sKYp1PQgo/0.jpg)](https://youtu.be/-_sKYp1PQgo)
