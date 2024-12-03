@@ -39,7 +39,7 @@ public class animasiBerjalan extends JPanel implements Runnable {
 
     public void run() {
         for (int i = 0; i < karakterImg.length; i++) {
-            karakter[i] = Toolkit.getDefaultToolkit().getImage("C:\\Users\\Fadhil Hakim\\Music\\3PBO-Z_2322029_MUHFADHILHAKIM\\2322029_MUHFADHILHAKIM_3PBO-Z\\src\\images\\" + karakterImg[i]);
+            karakter[i] = Toolkit.getDefaultToolkit().getImage("src/images" + karakterImg[i]);
         }
 
         setBackground(Color.black);
@@ -171,7 +171,7 @@ public class animasiBerjalan extends JPanel implements Runnable {
 
     void playSound(String fileName) {
         try {
-            File file = new File("C:\\Users\\Fadhil Hakim\\Music\\3PBO-Z_2322029_MUHFADHILHAKIM\\2322029_MUHFADHILHAKIM_3PBO-Z\\src\\audio\\" + fileName);
+            File file = new File("src/audio" + fileName);
             AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
             Clip clip = AudioSystem.getClip();
             clip.open(audioStream);
